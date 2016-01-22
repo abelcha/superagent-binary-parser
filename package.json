@@ -1,0 +1,27 @@
+{
+  "name": "superagent-binary-parser",
+  "version": "1.0.0",
+  "description": "binary parser for superagent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tovazm/superagent-binary-parser.git"
+  },
+  "keywords": [
+    "superagent",
+    "supertest",
+    "stream",
+    "buffer",
+    "parser",
+    "binary"
+  ],
+  "author": "abel chalier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tovazm/superagent-binary-parser/issues"
+  },
+  "homepage": "https://github.com/tovazm/superagent-binary-parser"
+}
