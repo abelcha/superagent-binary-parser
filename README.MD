@@ -1,4 +1,4 @@
-**superagent-binary-parser** is a [superagent](https://www.npmjs.com/package/superagent) plugin, created to parse binary response stream (pdf, zip, etc...)
+**[superagent-binary-parser](https://www.npmjs.com/package/superagent-binary-parser)** is a [superagent](https://www.npmjs.com/package/superagent) plugin, created to parse binary response stream (pdf, zip, etc...)
 
 ### Installation
 
@@ -7,9 +7,7 @@ npm install superagent-binary-parser --save
 
 ```
 
-
 ### Usage
-
 
 
 ```
@@ -24,3 +22,5 @@ superagent.get("https://website.com/ressource.pdf")
 		fs.writeFileSync("./resp.pdf", resp.buffer)
 	})
 ```
+
+
