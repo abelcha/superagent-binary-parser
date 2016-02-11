@@ -1,5 +1,5 @@
 module.exports = function(res, callback) {
-    var data = '';
+    res.data = '';
 
     res.setEncoding('binary');
     res.on('data', function (chunk) {
