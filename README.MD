@@ -16,11 +16,9 @@ var superagent = require('superagent');
 
 superagent.get("https://website.com/ressource.pdf")
 	.parse(binaryParser)
+	.buffer()
 	.end(function(err, resp) {
 		//resp.body is the buffer
-		//resp.data is the raw data
-		fs.writeFileSync("./resp.pdf", resp.buffer)
+		fs.writeFileSync("./resp.pdf", resp.body)
 	})
 ```
-
-
