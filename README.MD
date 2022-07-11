@@ -11,14 +11,14 @@ npm install superagent-binary-parser --save
 
 
 ```
-var binaryParser = require('superagent-binary-parser');
-var superagent = require('superagent');
+const binaryParser = require('superagent-binary-parser');
+const superagent = require('superagent');
 
-superagent.get("https://website.com/ressource.pdf")
+superagent.get('https://philosophiatopics.files.wordpress.com/2018/10/skin-in-the-game-nassim-nicholas-taleb.pdf')
 	.parse(binaryParser)
 	.buffer()
-	.end(function(err, resp) {
-		//resp.body is the buffer
-		fs.writeFileSync("./resp.pdf", resp.body)
+	.end((err, resp) => {
+		//resp.body is a buffer
+		fs.writeFileSync('./resp.pdf', resp.body)
 	})
 ```
